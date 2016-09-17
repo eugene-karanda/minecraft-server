@@ -1,0 +1,1075 @@
+[21:48:03] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[21:48:03] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[21:48:03] [main/INFO] [FML/]: Java is Java HotSpot(TM) Client VM, version 1.8.0_91, running on Windows 10:x86:10.0, installed at C:\Program Files (x86)\Java\jre1.8.0_91
+[21:48:03] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[21:48:03] [main/DEBUG] [FML/]: Java library path at launch is C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;.
+[21:48:03] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[21:48:03] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[21:48:03] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[21:48:03] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[21:48:03] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[21:48:03] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[21:48:03] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[21:48:03] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[21:48:03] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\Administrator\Desktop\mc server\.
+[21:48:03] [main/DEBUG] [FML/]: Discovering coremods
+[21:48:03] [main/DEBUG] [FML/]: Examining for coremod candidacy buildcraft-7.1.18.jar
+[21:48:03] [main/DEBUG] [FML/]: Not found coremod data in buildcraft-7.1.18.jar
+[21:48:03] [main/DEBUG] [FML/]: Examining for coremod candidacy Industrial-Craft-2-Mod-Experimental-1.7.10.jar
+[21:48:03] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Industrial-Craft-2-Mod-Experimental-1.7.10.jar, it will be examined later for regular @Mod instances
+[21:48:03] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
+[21:48:03] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:48:04] [main/DEBUG] [FML/]: Enqueued coremod IC2core
+[21:48:04] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:04] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:48:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:48:04] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[21:48:04] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[21:48:04] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[21:48:04] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[21:48:04] [main/DEBUG] [FML/]: Injection complete
+[21:48:04] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[21:48:04] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[21:48:05] [main/DEBUG] [FML/]: Read 527 binary patches
+[21:48:05] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:48:05] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[21:48:05] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:48:05] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[21:48:05] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[21:48:05] [main/DEBUG] [FML/]: Injection complete
+[21:48:05] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[21:48:05] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[21:48:05] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[21:48:05] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:48:05] [main/DEBUG] [FML/]: Injecting coremod IC2core {ic2.core.coremod.IC2core} class transformers
+[21:48:05] [main/DEBUG] [FML/]: Injection complete
+[21:48:05] [main/DEBUG] [FML/]: Running coremod plugin for IC2core {ic2.core.coremod.IC2core}
+[21:48:05] [main/DEBUG] [FML/]: Running coremod plugin IC2core
+[21:48:05] [main/INFO] [IC2-core/]: Loaded library ejml-0.23.jar.
+[21:48:05] [main/DEBUG] [FML/]: Coremod plugin class IC2core run successfully
+[21:48:05] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:48:05] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[21:48:05] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[21:48:05] [main/DEBUG] [FML/]: Validating minecraft
+[21:48:06] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[21:48:06] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:48:06] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:48:06] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:48:07] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[21:48:07] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[21:48:07] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[21:48:07] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[21:48:07] [Server thread/DEBUG] [FML/]: File C:\Users\Administrator\Desktop\mc server\config\injectedDependencies.json not found. No dependencies injected
+[21:48:07] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[21:48:07] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[21:48:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Administrator\Desktop\mc server\forge-1.7.10-10.13.4.1614-1.7.10-universal.jar, examining for mod candidates
+[21:48:07] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Administrator\Desktop\mc server\mods\Industrial-Craft-2-Mod-Experimental-1.7.10.jar
+[21:48:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Administrator\Desktop\mc server\.\mods\ic2\ejml-0.23.jar, examining for mod candidates
+[21:48:07] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[21:48:07] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:48:07] [Server thread/INFO] [FML/]: Searching C:\Users\Administrator\Desktop\mc server\mods for mods
+[21:48:07] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file buildcraft-7.1.18.jar
+[21:48:07] [Server thread/DEBUG] [FML/]: Found a candidate mod directory ic2
+[21:48:07] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Industrial-Craft-2-Mod-Experimental-1.7.10.jar
+[21:48:07] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for potential mods
+[21:48:07] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10-universal.jar appears to be missing an mcmod.info file
+[21:48:07] [Server thread/DEBUG] [FML/]: Examining file ejml-0.23.jar for potential mods
+[21:48:07] [Server thread/DEBUG] [FML/]: The mod container ejml-0.23.jar appears to be missing an mcmod.info file
+[21:48:07] [Server thread/DEBUG] [FML/]: Examining file buildcraft-7.1.18.jar for potential mods
+[21:48:07] [Server thread/TRACE] [FML/]: Located mcmod.info file in file buildcraft-7.1.18.jar
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftTransport) - loading
+[21:48:07] [Server thread/TRACE] [BuildCraft|Transport/]: Parsed dependency info : [BuildCraft|Core@7.1.18] [BuildCraft|Core@7.1.18] []
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftSilicon) - loading
+[21:48:07] [Server thread/TRACE] [BuildCraft|Silicon/]: Parsed dependency info : [BuildCraft|Core@7.1.18] [BuildCraft|Core@7.1.18] []
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftCore) - loading
+[21:48:07] [Server thread/TRACE] [BuildCraft|Core/]: Parsed dependency info : [Forge@[10.13.2.1236,)] [Forge@[10.13.2.1236,)] []
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftEnergy) - loading
+[21:48:07] [Server thread/TRACE] [BuildCraft|Energy/]: Parsed dependency info : [BuildCraft|Core@7.1.18] [BuildCraft|Core@7.1.18] []
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftFactory) - loading
+[21:48:07] [Server thread/TRACE] [BuildCraft|Factory/]: Parsed dependency info : [BuildCraft|Core@7.1.18] [BuildCraft|Core@7.1.18] []
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftBuilders) - loading
+[21:48:07] [Server thread/TRACE] [BuildCraft|Builders/]: Parsed dependency info : [BuildCraft|Core@7.1.18] [BuildCraft|Core@7.1.18] []
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftRobotics) - loading
+[21:48:07] [Server thread/TRACE] [BuildCraft|Robotics/]: Parsed dependency info : [BuildCraft|Core@7.1.18] [BuildCraft|Core@7.1.18] []
+[21:48:07] [Server thread/DEBUG] [FML/]: Examining directory ic2 for potential mods
+[21:48:07] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory ic2
+[21:48:07] [Server thread/DEBUG] [FML/]: Examining file Industrial-Craft-2-Mod-Experimental-1.7.10.jar for potential mods
+[21:48:07] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Industrial-Craft-2-Mod-Experimental-1.7.10.jar
+[21:48:07] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ic2.core.IC2) - loading
+[21:48:07] [Server thread/TRACE] [IC2/]: Parsed dependency info : [Forge@[10.13.0.1152,)] [Forge@[10.13.0.1152,)] []
+[21:48:08] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 11 mods to load
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.event (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.info (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.prefab (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.event (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.tile (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.util (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.recipe (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.reactor (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.crops (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.network (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.tile (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API ic2.api.item (owned by IC2 providing IC2API) embedded in IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Robotics
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tiles:1.2}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tiles: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|lists:1.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|lists: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|gates:4.1}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|gates: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.2}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|transport:4.1}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|transport: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|statements:1.1}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|statements: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|crops: owner: BuildCraftAPI|Core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|power:1.3}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|power: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|blocks:1.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|blocks: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|facades:1.1}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|facades: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tablet:1.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tablet: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tools:1.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tools: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|events:2.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|events: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|library:2.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|library: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|blueprints:1.5}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|blueprints: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|items:1.1}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|items: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|filler:4.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|filler: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|fuels:2.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|fuels: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|boards:2.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|boards: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API IC2API: owner: IC2, dependents: []
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|recipes:3.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|recipes: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|robotics:3.0}
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|robotics: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|core: owner: BuildCraft|Core, dependents: [BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics]
+[21:48:08] [Server thread/TRACE] [FML/]: Received a system property request ''
+[21:48:08] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[21:48:08] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:48:08] [Server thread/DEBUG] [BuildCraft|Transport/]: Enabling mod BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.18.jar [nl_NL, es_ES, hu_HU, zh_TW, fr_FR, es_VE, zh_CN, sv_SE, ja_JP, pt_BR, es_MX, cs_CZ, tr_TR, ko_KR, pt_PT, sr_SP, de_DE, pl_PL, hr_HR, da_DK, et_EE, fi_FI, fr_CA, it_IT, en_US, es_UY, sk_SK, lt_LT, ru_RU, es_AR, no_NO]
+[21:48:08] [Server thread/DEBUG] [BuildCraft|Silicon/]: Enabling mod BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.18.jar [nl_NL, es_ES, hu_HU, zh_TW, fr_FR, es_VE, zh_CN, sv_SE, ja_JP, pt_BR, es_MX, cs_CZ, tr_TR, ko_KR, pt_PT, sr_SP, de_DE, pl_PL, hr_HR, da_DK, et_EE, fi_FI, fr_CA, it_IT, en_US, es_UY, sk_SK, lt_LT, ru_RU, es_AR, no_NO]
+[21:48:08] [Server thread/DEBUG] [BuildCraft|Core/]: Enabling mod BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.18.jar [nl_NL, es_ES, hu_HU, zh_TW, fr_FR, es_VE, zh_CN, sv_SE, ja_JP, pt_BR, es_MX, cs_CZ, tr_TR, ko_KR, pt_PT, sr_SP, de_DE, pl_PL, hr_HR, da_DK, et_EE, fi_FI, fr_CA, it_IT, en_US, es_UY, sk_SK, lt_LT, ru_RU, es_AR, no_NO]
+[21:48:08] [Server thread/DEBUG] [BuildCraft|Energy/]: Enabling mod BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.18.jar [nl_NL, es_ES, hu_HU, zh_TW, fr_FR, es_VE, zh_CN, sv_SE, ja_JP, pt_BR, es_MX, cs_CZ, tr_TR, ko_KR, pt_PT, sr_SP, de_DE, pl_PL, hr_HR, da_DK, et_EE, fi_FI, fr_CA, it_IT, en_US, es_UY, sk_SK, lt_LT, ru_RU, es_AR, no_NO]
+[21:48:08] [Server thread/DEBUG] [BuildCraft|Factory/]: Enabling mod BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.18.jar [nl_NL, es_ES, hu_HU, zh_TW, fr_FR, es_VE, zh_CN, sv_SE, ja_JP, pt_BR, es_MX, cs_CZ, tr_TR, ko_KR, pt_PT, sr_SP, de_DE, pl_PL, hr_HR, da_DK, et_EE, fi_FI, fr_CA, it_IT, en_US, es_UY, sk_SK, lt_LT, ru_RU, es_AR, no_NO]
+[21:48:08] [Server thread/DEBUG] [BuildCraft|Builders/]: Enabling mod BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.18.jar [nl_NL, es_ES, hu_HU, zh_TW, fr_FR, es_VE, zh_CN, sv_SE, ja_JP, pt_BR, es_MX, cs_CZ, tr_TR, ko_KR, pt_PT, sr_SP, de_DE, pl_PL, hr_HR, da_DK, et_EE, fi_FI, fr_CA, it_IT, en_US, es_UY, sk_SK, lt_LT, ru_RU, es_AR, no_NO]
+[21:48:08] [Server thread/DEBUG] [BuildCraft|Robotics/]: Enabling mod BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.18.jar [nl_NL, es_ES, hu_HU, zh_TW, fr_FR, es_VE, zh_CN, sv_SE, ja_JP, pt_BR, es_MX, cs_CZ, tr_TR, ko_KR, pt_PT, sr_SP, de_DE, pl_PL, hr_HR, da_DK, et_EE, fi_FI, fr_CA, it_IT, en_US, es_UY, sk_SK, lt_LT, ru_RU, es_AR, no_NO]
+[21:48:08] [Server thread/DEBUG] [IC2/]: Enabling mod IC2
+[21:48:08] [Server thread/DEBUG] [FML/]: Found translations in Industrial-Craft-2-Mod-Experimental-1.7.10.jar [en_IC]
+[21:48:08] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[21:48:08] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[21:48:08] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[21:48:08] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[21:48:08] [Server thread/DEBUG] [FML/]: Mod sorting data
+[21:48:08] [Server thread/DEBUG] [FML/]: 	CoFHAPI(API: CoFHAPI:1.7.10R1.0.2): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	CoFHAPI|energy(API: CoFHAPI|energy:1.7.10R1.0.2): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|crops(API: BuildCraftAPI|crops:1.1): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraft|Core(BuildCraft:7.1.18): buildcraft-7.1.18.jar (required-after:Forge@[10.13.2.1236,))
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|core(API: BuildCraftAPI|core:2.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|tiles(API: BuildCraftAPI|tiles:1.2): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|lists(API: BuildCraftAPI|lists:1.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|gates(API: BuildCraftAPI|gates:4.1): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|transport(API: BuildCraftAPI|transport:4.1): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|statements(API: BuildCraftAPI|statements:1.1): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|power(API: BuildCraftAPI|power:1.3): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|blocks(API: BuildCraftAPI|blocks:1.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|facades(API: BuildCraftAPI|facades:1.1): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|tablet(API: BuildCraftAPI|tablet:1.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|tools(API: BuildCraftAPI|tools:1.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|events(API: BuildCraftAPI|events:2.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|library(API: BuildCraftAPI|library:2.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|blueprints(API: BuildCraftAPI|blueprints:1.5): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|items(API: BuildCraftAPI|items:1.1): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|filler(API: BuildCraftAPI|filler:4.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|fuels(API: BuildCraftAPI|fuels:2.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|boards(API: BuildCraftAPI|boards:2.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|recipes(API: BuildCraftAPI|recipes:3.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|robotics(API: BuildCraftAPI|robotics:3.0): buildcraft-7.1.18.jar ()
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraft|Transport(BC Transport:7.1.18): buildcraft-7.1.18.jar (required-after:BuildCraft|Core@7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraft|Silicon(BC Silicon:7.1.18): buildcraft-7.1.18.jar (required-after:BuildCraft|Core@7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraft|Energy(BC Energy:7.1.18): buildcraft-7.1.18.jar (required-after:BuildCraft|Core@7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraft|Factory(BC Factory:7.1.18): buildcraft-7.1.18.jar (required-after:BuildCraft|Core@7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraft|Builders(BC Builders:7.1.18): buildcraft-7.1.18.jar (required-after:BuildCraft|Core@7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/]: 	BuildCraft|Robotics(BC Robotics:7.1.18): buildcraft-7.1.18.jar (required-after:BuildCraft|Core@7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/]: 	IC2(IndustrialCraft 2:2.2.485-experimental): Industrial-Craft-2-Mod-Experimental-1.7.10.jar (required-after:Forge@[10.13.0.1152,))
+[21:48:08] [Server thread/DEBUG] [FML/]: 	IC2API(API: IC2API:1.0): Industrial-Craft-2-Mod-Experimental-1.7.10.jar ()
+[21:48:08] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[21:48:08] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,001s
+[21:48:08] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[21:48:08] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[21:48:08] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[21:48:08] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics, IC2] at CLIENT
+[21:48:08] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, BuildCraft|Transport, BuildCraft|Silicon, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Builders, BuildCraft|Robotics, IC2] at SERVER
+[21:48:08] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0,195s
+[21:48:08] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[21:48:08] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[21:48:08] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[21:48:08] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,007s
+[21:48:08] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLConstructionEvent to mod BuildCraft|Core
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Core]: Mod BuildCraft|Core is using network checker : Accepting version 7.1.18
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Core]: Testing mod BuildCraft|Core to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Core]: The mod BuildCraft|Core accepts its own version (7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/BuildCraft|Core]: Attempting to inject @SidedProxy classes into BuildCraft|Core
+[21:48:08] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLConstructionEvent to mod BuildCraft|Core
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BuildCraft took 0,287s
+[21:48:08] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLConstructionEvent to mod BuildCraft|Transport
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Transport]: Mod BuildCraft|Transport is using network checker : Accepting version 7.1.18
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Transport]: Testing mod BuildCraft|Transport to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Transport]: The mod BuildCraft|Transport accepts its own version (7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/BuildCraft|Transport]: Attempting to inject @SidedProxy classes into BuildCraft|Transport
+[21:48:08] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLConstructionEvent to mod BuildCraft|Transport
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Transport took 0,004s
+[21:48:08] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLConstructionEvent to mod BuildCraft|Silicon
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Silicon]: Mod BuildCraft|Silicon is using network checker : Accepting version 7.1.18
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Silicon]: Testing mod BuildCraft|Silicon to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Silicon]: The mod BuildCraft|Silicon accepts its own version (7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/BuildCraft|Silicon]: Attempting to inject @SidedProxy classes into BuildCraft|Silicon
+[21:48:08] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLConstructionEvent to mod BuildCraft|Silicon
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Silicon took 0,003s
+[21:48:08] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLConstructionEvent to mod BuildCraft|Energy
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Energy]: Mod BuildCraft|Energy is using network checker : Accepting version 7.1.18
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Energy]: Testing mod BuildCraft|Energy to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Energy]: The mod BuildCraft|Energy accepts its own version (7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/BuildCraft|Energy]: Attempting to inject @SidedProxy classes into BuildCraft|Energy
+[21:48:08] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLConstructionEvent to mod BuildCraft|Energy
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Energy took 0,002s
+[21:48:08] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLConstructionEvent to mod BuildCraft|Factory
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Factory]: Mod BuildCraft|Factory is using network checker : Accepting version 7.1.18
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Factory]: Testing mod BuildCraft|Factory to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Factory]: The mod BuildCraft|Factory accepts its own version (7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/BuildCraft|Factory]: Attempting to inject @SidedProxy classes into BuildCraft|Factory
+[21:48:08] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLConstructionEvent to mod BuildCraft|Factory
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Factory took 0,002s
+[21:48:08] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLConstructionEvent to mod BuildCraft|Builders
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Builders]: Mod BuildCraft|Builders is using network checker : Accepting version 7.1.18
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Builders]: Testing mod BuildCraft|Builders to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Builders]: The mod BuildCraft|Builders accepts its own version (7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/BuildCraft|Builders]: Attempting to inject @SidedProxy classes into BuildCraft|Builders
+[21:48:08] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLConstructionEvent to mod BuildCraft|Builders
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Builders took 0,002s
+[21:48:08] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLConstructionEvent to mod BuildCraft|Robotics
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Robotics]: Mod BuildCraft|Robotics is using network checker : Accepting version 7.1.18
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Robotics]: Testing mod BuildCraft|Robotics to verify it accepts its own version in a remote connection
+[21:48:08] [Server thread/TRACE] [FML/BuildCraft|Robotics]: The mod BuildCraft|Robotics accepts its own version (7.1.18)
+[21:48:08] [Server thread/DEBUG] [FML/BuildCraft|Robotics]: Attempting to inject @SidedProxy classes into BuildCraft|Robotics
+[21:48:08] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLConstructionEvent to mod BuildCraft|Robotics
+[21:48:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Robotics took 0,002s
+[21:48:08] [Server thread/TRACE] [IC2/IC2]: Sending event FMLConstructionEvent to mod IC2
+[21:48:09] [Server thread/TRACE] [FML/IC2]: Mod IC2 is using network checker : Accepting version 2.2.485-experimental
+[21:48:09] [Server thread/TRACE] [FML/IC2]: Testing mod IC2 to verify it accepts its own version in a remote connection
+[21:48:09] [Server thread/TRACE] [FML/IC2]: The mod IC2 accepts its own version (2.2.485-experimental)
+[21:48:09] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @SidedProxy classes into IC2
+[21:48:09] [Server thread/TRACE] [IC2/IC2]: Sent event FMLConstructionEvent to mod IC2
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: Construction - IndustrialCraft 2 took 0,117s
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0,621s
+[21:48:09] [Server thread/DEBUG] [FML/]: Mod signature data
+[21:48:09] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[21:48:09] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1614)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		(de041f9f6187debbc77034a344134053277aa3b0) IC2	(IndustrialCraft 2	2.2.485-experimental)	Industrial-Craft-2-Mod-Experimental-1.7.10.jar
+[21:48:09] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[21:48:09] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		BuildCraft|Core	(BuildCraft	7.1.18)	buildcraft-7.1.18.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		BuildCraft|Transport	(BC Transport	7.1.18)	buildcraft-7.1.18.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		BuildCraft|Silicon	(BC Silicon	7.1.18)	buildcraft-7.1.18.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		BuildCraft|Energy	(BC Energy	7.1.18)	buildcraft-7.1.18.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		BuildCraft|Factory	(BC Factory	7.1.18)	buildcraft-7.1.18.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		BuildCraft|Builders	(BC Builders	7.1.18)	buildcraft-7.1.18.jar
+[21:48:09] [Server thread/DEBUG] [FML/]: 		BuildCraft|Robotics	(BC Robotics	7.1.18)	buildcraft-7.1.18.jar
+[21:48:09] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[21:48:09] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[21:48:09] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[21:48:09] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[21:48:09] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[21:48:09] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,000s
+[21:48:09] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[21:48:09] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,000s
+[21:48:09] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[21:48:09] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[21:48:09] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,023s
+[21:48:09] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLPreInitializationEvent to mod BuildCraft|Core
+[21:48:09] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: Starting BuildCraft 7.1.18
+[21:48:09] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: Copyright (c) the BuildCraft team, 2011-2015
+[21:48:09] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: http://www.mod-buildcraft.com
+[21:48:09] [Thread-6/INFO] [BuildCraft/BuildCraft|Core]: Beginning version check
+[21:48:09] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLPreInitializationEvent to mod BuildCraft|Core
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BuildCraft took 0,066s
+[21:48:09] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLPreInitializationEvent to mod BuildCraft|Transport
+[21:48:09] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLPreInitializationEvent to mod BuildCraft|Transport
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Transport took 0,155s
+[21:48:09] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLPreInitializationEvent to mod BuildCraft|Silicon
+[21:48:09] [Server thread/TRACE] [FML/BuildCraft|Silicon]: Automatically registered mod BuildCraft|Silicon entity bcPackageThrowable as BuildCraft|Silicon.bcPackageThrowable
+[21:48:09] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLPreInitializationEvent to mod BuildCraft|Silicon
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Silicon took 0,034s
+[21:48:09] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLPreInitializationEvent to mod BuildCraft|Energy
+[21:48:09] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLPreInitializationEvent to mod BuildCraft|Energy
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Energy took 0,104s
+[21:48:09] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLPreInitializationEvent to mod BuildCraft|Factory
+[21:48:09] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLPreInitializationEvent to mod BuildCraft|Factory
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Factory took 0,029s
+[21:48:09] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLPreInitializationEvent to mod BuildCraft|Builders
+[21:48:09] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLPreInitializationEvent to mod BuildCraft|Builders
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Builders took 0,044s
+[21:48:09] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLPreInitializationEvent to mod BuildCraft|Robotics
+[21:48:09] [Thread-6/TRACE] [BuildCraft/BuildCraft|Core]: Using the latest version [7.1.18] for Minecraft 1.7.10
+[21:48:09] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLPreInitializationEvent to mod BuildCraft|Robotics
+[21:48:09] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Robotics took 0,063s
+[21:48:09] [Server thread/TRACE] [IC2/IC2]: Sending event FMLPreInitializationEvent to mod IC2
+[21:48:09] [Server thread/INFO] [IC2/IC2]: Starting pre-init
+[21:48:10] [Server thread/DEBUG] [FML/IC2]: Method ic2.core.block.TileEntityLiquidTankElectricMachine.getTankFluidId()I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[21:48:10] [Server thread/DEBUG] [FML/IC2]: Method ic2.core.block.TileEntityLiquidTankStandardMaschine.getTankFluidId()I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[21:48:10] [Server thread/DEBUG] [FML/IC2]: Method ic2.core.AdvRecipe.expand(Ljava/lang/Object;)Ljava/util/List;: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity MiningLaser as IC2.MiningLaser
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Dynamite as IC2.Dynamite
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity StickyDynamite as IC2.StickyDynamite
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Itnt as IC2.Itnt
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Nuke as IC2.Nuke
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatCarbon as IC2.BoatCarbon
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatRubber as IC2.BoatRubber
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatElectric as IC2.BoatElectric
+[21:48:10] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Particle as IC2.Particle
+[21:48:10] [Server thread/INFO] [IC2/IC2]: Finished pre-init after 879 ms
+[21:48:10] [Server thread/TRACE] [IC2/IC2]: Sent event FMLPreInitializationEvent to mod IC2
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - IndustrialCraft 2 took 0,881s
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 1,399s
+[21:48:10] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:48:10] [Server thread/INFO] [FML/]: Holder lookups applied
+[21:48:10] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:48:10] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:48:10] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[21:48:10] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[21:48:10] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,000s
+[21:48:10] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[21:48:10] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,000s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLInitializationEvent to mod BuildCraft|Core
+[21:48:10] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLInitializationEvent to mod BuildCraft|Core
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - BuildCraft took 0,052s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLInitializationEvent to mod BuildCraft|Transport
+[21:48:10] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLInitializationEvent to mod BuildCraft|Transport
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - BC Transport took 0,055s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLInitializationEvent to mod BuildCraft|Silicon
+[21:48:10] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLInitializationEvent to mod BuildCraft|Silicon
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - BC Silicon took 0,006s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLInitializationEvent to mod BuildCraft|Energy
+[21:48:10] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLInitializationEvent to mod BuildCraft|Energy
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - BC Energy took 0,002s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLInitializationEvent to mod BuildCraft|Factory
+[21:48:10] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLInitializationEvent to mod BuildCraft|Factory
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - BC Factory took 0,006s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLInitializationEvent to mod BuildCraft|Builders
+[21:48:10] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLInitializationEvent to mod BuildCraft|Builders
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - BC Builders took 0,028s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLInitializationEvent to mod BuildCraft|Robotics
+[21:48:10] [Server thread/TRACE] [FML/BuildCraft|Robotics]: Automatically registered mod BuildCraft|Robotics entity bcRobot as BuildCraft|Robotics.bcRobot
+[21:48:10] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLInitializationEvent to mod BuildCraft|Robotics
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - BC Robotics took 0,059s
+[21:48:10] [Server thread/TRACE] [IC2/IC2]: Sending event FMLInitializationEvent to mod IC2
+[21:48:10] [Server thread/INFO] [IC2/IC2]: Starting init
+[21:48:10] [Server thread/INFO] [IC2/IC2]: Finished init after 29 ms
+[21:48:10] [Server thread/TRACE] [IC2/IC2]: Sent event FMLInitializationEvent to mod IC2
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - IndustrialCraft 2 took 0,031s
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,240s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[21:48:10] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[21:48:10] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,001s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[21:48:10] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[21:48:10] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[21:48:10] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[21:48:10] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod BuildCraft|Core
+[21:48:10] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event IMCEvent to mod BuildCraft|Core
+[21:48:10] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event IMCEvent to mod BuildCraft|Core
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - BuildCraft took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod BuildCraft|Transport
+[21:48:10] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event IMCEvent to mod BuildCraft|Transport
+[21:48:10] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event IMCEvent to mod BuildCraft|Transport
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - BC Transport took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod BuildCraft|Silicon
+[21:48:10] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event IMCEvent to mod BuildCraft|Silicon
+[21:48:10] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event IMCEvent to mod BuildCraft|Silicon
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - BC Silicon took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod BuildCraft|Energy
+[21:48:10] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event IMCEvent to mod BuildCraft|Energy
+[21:48:10] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event IMCEvent to mod BuildCraft|Energy
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - BC Energy took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod BuildCraft|Factory
+[21:48:10] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event IMCEvent to mod BuildCraft|Factory
+[21:48:10] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event IMCEvent to mod BuildCraft|Factory
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - BC Factory took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod BuildCraft|Builders
+[21:48:10] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event IMCEvent to mod BuildCraft|Builders
+[21:48:10] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event IMCEvent to mod BuildCraft|Builders
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - BC Builders took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod BuildCraft|Robotics
+[21:48:10] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event IMCEvent to mod BuildCraft|Robotics
+[21:48:10] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event IMCEvent to mod BuildCraft|Robotics
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - BC Robotics took 0,001s
+[21:48:10] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod IC2
+[21:48:10] [Server thread/TRACE] [IC2/IC2]: Sending event IMCEvent to mod IC2
+[21:48:10] [Server thread/TRACE] [IC2/IC2]: Sent event IMCEvent to mod IC2
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - IndustrialCraft 2 took 0,000s
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,005s
+[21:48:10] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:48:10] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:48:10] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[21:48:10] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,000s
+[21:48:10] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[21:48:10] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,000s
+[21:48:10] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[21:48:10] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[21:48:10] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,001s
+[21:48:10] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLPostInitializationEvent to mod BuildCraft|Core
+[21:48:10] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: BuildCraft's fake player: UUID = 77456a1f-b9f9-3f84-8863-ddef5b8e2209, name = '[BuildCraft]'!
+[21:48:11] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLPostInitializationEvent to mod BuildCraft|Core
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - BuildCraft took 0,037s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLPostInitializationEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLPostInitializationEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - BC Transport took 0,042s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLPostInitializationEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLPostInitializationEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - BC Silicon took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLPostInitializationEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLPostInitializationEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - BC Energy took 0,009s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLPostInitializationEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLPostInitializationEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - BC Factory took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLPostInitializationEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLPostInitializationEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - BC Builders took 0,008s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLPostInitializationEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLPostInitializationEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - BC Robotics took 0,000s
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sending event FMLPostInitializationEvent to mod IC2
+[21:48:11] [Server thread/INFO] [IC2/IC2]: Starting post-init
+[21:48:11] [Server thread/INFO] [IC2/IC2]: Loading IC2 submodule: bcIntegration
+[21:48:11] [Server thread/INFO] [IC2/IC2]: Submodule bcIntegration not loaded
+[21:48:11] [Server thread/INFO] [IC2/IC2]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[21:48:11] [Server thread/INFO] [IC2/IC2]: 1940 UU recipe transformations fetched after 18 ms.
+[21:48:11] [Server thread/INFO] [IC2/IC2]: Finished post-init after 70 ms
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sent event FMLPostInitializationEvent to mod IC2
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - IndustrialCraft 2 took 0,071s
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,171s
+[21:48:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[21:48:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,000s
+[21:48:11] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[21:48:11] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,000s
+[21:48:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[21:48:11] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   16: RecipeEntry("Before", UNKNOWN, )
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("facadeTurningHelper", SHAPELESS, buildcraft.transport.ItemFacade$FacadeRecipe)
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("ic2:shaped", SHAPED, ic2.core.AdvRecipe) After: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("ic2:shapeless", SHAPELESS, ic2.core.AdvShapelessRecipe) After: ic2:shaped
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("buildcraft:pipecoloring", SHAPELESS, buildcraft.transport.PipeColoringRecipe) After: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("ic2:gradual", SHAPELESS, ic2.core.RecipeGradual) After: ic2:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[21:48:11] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[21:48:11] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[21:48:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,005s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLLoadCompleteEvent to mod BuildCraft|Core
+[21:48:11] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLLoadCompleteEvent to mod BuildCraft|Core
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - BuildCraft took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLLoadCompleteEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLLoadCompleteEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - BC Transport took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLLoadCompleteEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLLoadCompleteEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - BC Silicon took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLLoadCompleteEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLLoadCompleteEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - BC Energy took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLLoadCompleteEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLLoadCompleteEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - BC Factory took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLLoadCompleteEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLLoadCompleteEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - BC Builders took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLLoadCompleteEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLLoadCompleteEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - BC Robotics took 0,000s
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sending event FMLLoadCompleteEvent to mod IC2
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sent event FMLLoadCompleteEvent to mod IC2
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - IndustrialCraft 2 took 0,000s
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,007s
+[21:48:11] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[21:48:11] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:48:11] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:48:11] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 11 mods
+[21:48:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[21:48:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0,000s
+[21:48:11] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[21:48:11] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0,000s
+[21:48:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[21:48:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerAboutToStartEvent to mod BuildCraft|Core
+[21:48:11] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerAboutToStartEvent to mod BuildCraft|Core
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - BuildCraft took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerAboutToStartEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerAboutToStartEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - BC Transport took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerAboutToStartEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerAboutToStartEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - BC Silicon took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerAboutToStartEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerAboutToStartEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - BC Energy took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerAboutToStartEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerAboutToStartEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - BC Factory took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerAboutToStartEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerAboutToStartEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - BC Builders took 0,016s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerAboutToStartEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerAboutToStartEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - BC Robotics took 0,000s
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerAboutToStartEvent to mod IC2
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerAboutToStartEvent to mod IC2
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - IndustrialCraft 2 took 0,000s
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0,019s
+[21:48:11] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[21:48:11] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:48:11] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:48:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[21:48:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[21:48:11] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[21:48:11] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[21:48:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[21:48:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,001s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLModIdMappingEvent to mod BuildCraft|Core
+[21:48:11] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLModIdMappingEvent to mod BuildCraft|Core
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BuildCraft took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLModIdMappingEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLModIdMappingEvent to mod BuildCraft|Transport
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Transport took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Silicon took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLModIdMappingEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLModIdMappingEvent to mod BuildCraft|Energy
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Energy took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLModIdMappingEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLModIdMappingEvent to mod BuildCraft|Factory
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Factory took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLModIdMappingEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLModIdMappingEvent to mod BuildCraft|Builders
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Builders took 0,000s
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Robotics took 0,000s
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sending event FMLModIdMappingEvent to mod IC2
+[21:48:11] [Server thread/TRACE] [IC2/IC2]: Sent event FMLModIdMappingEvent to mod IC2
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - IndustrialCraft 2 took 0,000s
+[21:48:11] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,004s
+[21:48:11] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:48:11] [Server thread/INFO] [FML/]: Holder lookups applied
+[21:48:11] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid IC2:constructionfoam has been selected as the default fluid for constructionfoam
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid BuildCraft|Energy:redplasma has been selected as the default fluid for redplasma
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid BuildCraft|Energy:fuel has been selected as the default fluid for fuel
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid BuildCraft|Energy:oil has been selected as the default fluid for oil
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid IC2:ic2coolant has been selected as the default fluid for ic2coolant
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid IC2:ic2hotcoolant has been selected as the default fluid for ic2hotcoolant
+[21:48:11] [Server thread/DEBUG] [FML/]: The fluid IC2:uumatter has been selected as the default fluid for uumatter
+[21:48:11] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@1e3d30d)
+[21:48:11] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@1e3d30d)
+[21:48:11] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1e3d30d)
+[21:48:11] [ic2-poolthread-1/INFO] [IC2/IC2]: UU graph built with 1417 nodes after 516 ms.
+[21:48:12] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[21:48:12] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0,000s
+[21:48:12] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[21:48:12] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0,000s
+[21:48:12] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[21:48:12] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0,002s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerStartingEvent to mod BuildCraft|Core
+[21:48:12] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerStartingEvent to mod BuildCraft|Core
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - BuildCraft took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerStartingEvent to mod BuildCraft|Transport
+[21:48:12] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerStartingEvent to mod BuildCraft|Transport
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - BC Transport took 0,001s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerStartingEvent to mod BuildCraft|Silicon
+[21:48:12] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerStartingEvent to mod BuildCraft|Silicon
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - BC Silicon took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerStartingEvent to mod BuildCraft|Energy
+[21:48:12] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerStartingEvent to mod BuildCraft|Energy
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - BC Energy took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerStartingEvent to mod BuildCraft|Factory
+[21:48:12] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerStartingEvent to mod BuildCraft|Factory
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - BC Factory took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerStartingEvent to mod BuildCraft|Builders
+[21:48:12] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerStartingEvent to mod BuildCraft|Builders
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - BC Builders took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerStartingEvent to mod BuildCraft|Robotics
+[21:48:12] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerStartingEvent to mod BuildCraft|Robotics
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - BC Robotics took 0,045s
+[21:48:12] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStartingEvent to mod IC2
+[21:48:12] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStartingEvent to mod IC2
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - IndustrialCraft 2 took 0,005s
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0,055s
+[21:48:12] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[21:48:12] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0,000s
+[21:48:12] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[21:48:12] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0,000s
+[21:48:12] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[21:48:12] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerStartedEvent to mod BuildCraft|Core
+[21:48:12] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerStartedEvent to mod BuildCraft|Core
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - BuildCraft took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerStartedEvent to mod BuildCraft|Transport
+[21:48:12] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerStartedEvent to mod BuildCraft|Transport
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - BC Transport took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerStartedEvent to mod BuildCraft|Silicon
+[21:48:12] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerStartedEvent to mod BuildCraft|Silicon
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - BC Silicon took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerStartedEvent to mod BuildCraft|Energy
+[21:48:12] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerStartedEvent to mod BuildCraft|Energy
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - BC Energy took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerStartedEvent to mod BuildCraft|Factory
+[21:48:12] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerStartedEvent to mod BuildCraft|Factory
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - BC Factory took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerStartedEvent to mod BuildCraft|Builders
+[21:48:12] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerStartedEvent to mod BuildCraft|Builders
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - BC Builders took 0,000s
+[21:48:12] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerStartedEvent to mod BuildCraft|Robotics
+[21:48:12] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerStartedEvent to mod BuildCraft|Robotics
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - BC Robotics took 0,021s
+[21:48:12] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStartedEvent to mod IC2
+[21:48:12] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStartedEvent to mod IC2
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - IndustrialCraft 2 took 0,000s
+[21:48:12] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,024s
+[21:48:20] [Netty IO #3/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:48:20] [Netty IO #3/INFO] [FML/]: Client protocol version 2
+[21:48:20] [Netty IO #3/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:48:20] [Netty IO #3/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:48:20] [Netty IO #3/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:48:20] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:48:20] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:48:20] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:48:20] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:48:20] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:48:20] [Server thread/DEBUG] [FML/]: Method ic2.core.network.DataEncoder.encode(Ljava/io/DataOutputStream;Ljava/lang/Object;Z)V: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[21:48:20] [Server thread/DEBUG] [FML/]: Method ic2.core.network.DataEncoder.copyValue(Ljava/lang/Object;Ljava/lang/Object;)Z: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[21:48:20] [Netty IO #4/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:48:20] [Netty IO #4/INFO] [FML/]: Client protocol version 2
+[21:48:20] [Netty IO #4/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:48:20] [Netty IO #4/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:48:20] [Netty IO #4/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:48:20] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:48:23] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:48:23] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:48:23] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:48:23] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:48:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:49:32] [Netty IO #6/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:49:32] [Netty IO #6/INFO] [FML/]: Client protocol version 2
+[21:49:32] [Netty IO #6/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:49:32] [Netty IO #6/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:49:32] [Netty IO #6/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:49:32] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:49:32] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:49:32] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:49:32] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:49:32] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:49:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:50:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:50:44] [Netty IO #0/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:50:44] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[21:50:44] [Netty IO #0/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:50:44] [Netty IO #0/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:50:44] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:50:44] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:50:47] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:50:47] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:50:47] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:50:47] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:51:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:51:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:52:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:53:10] [Netty IO #2/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:53:10] [Netty IO #2/INFO] [FML/]: Client protocol version 2
+[21:53:10] [Netty IO #2/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:53:10] [Netty IO #2/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:53:11] [Netty IO #2/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:53:11] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:53:11] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:53:11] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:53:11] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:53:11] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:53:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:53:47] [Netty IO #4/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:53:47] [Netty IO #4/INFO] [FML/]: Client protocol version 2
+[21:53:47] [Netty IO #4/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:53:47] [Netty IO #4/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:53:47] [Netty IO #4/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:53:47] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:53:50] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:53:50] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:53:50] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:53:50] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:54:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:54:50] [Netty IO #6/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:54:50] [Netty IO #6/INFO] [FML/]: Client protocol version 2
+[21:54:50] [Netty IO #6/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:54:50] [Netty IO #6/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:54:50] [Netty IO #6/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:54:51] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:54:53] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:54:53] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:54:53] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:54:53] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:54:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:55:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:56:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:57:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:57:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:58:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:59:16] [Netty IO #0/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:59:16] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[21:59:16] [Netty IO #0/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[21:59:16] [Netty IO #0/INFO] [FML/]: Client attempting to join with 11 mods : BuildCraft|Core@7.1.18,FML@7.10.99.99,BuildCraft|Silicon@7.1.18,BuildCraft|Transport@7.1.18,BuildCraft|Energy@7.1.18,Forge@10.13.4.1614,IC2@2.2.485-experimental,mcp@9.05,BuildCraft|Builders@7.1.18,BuildCraft|Factory@7.1.18,BuildCraft|Robotics@7.1.18
+[21:59:16] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:59:16] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:59:16] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:59:16] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:59:16] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:59:16] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:59:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:00:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:00:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:01:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[22:01:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0,001s
+[22:01:18] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[22:01:18] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0,001s
+[22:01:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[22:01:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0,001s
+[22:01:18] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerStoppingEvent to mod BuildCraft|Core
+[22:01:18] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerStoppingEvent to mod BuildCraft|Core
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BuildCraft took 0,000s
+[22:01:18] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerStoppingEvent to mod BuildCraft|Transport
+[22:01:18] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerStoppingEvent to mod BuildCraft|Transport
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Transport took 0,001s
+[22:01:18] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerStoppingEvent to mod BuildCraft|Silicon
+[22:01:18] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerStoppingEvent to mod BuildCraft|Silicon
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Silicon took 0,000s
+[22:01:18] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerStoppingEvent to mod BuildCraft|Energy
+[22:01:18] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerStoppingEvent to mod BuildCraft|Energy
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Energy took 0,000s
+[22:01:18] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerStoppingEvent to mod BuildCraft|Factory
+[22:01:18] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerStoppingEvent to mod BuildCraft|Factory
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Factory took 0,000s
+[22:01:18] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerStoppingEvent to mod BuildCraft|Builders
+[22:01:18] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerStoppingEvent to mod BuildCraft|Builders
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Builders took 0,006s
+[22:01:18] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerStoppingEvent to mod BuildCraft|Robotics
+[22:01:18] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerStoppingEvent to mod BuildCraft|Robotics
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - BC Robotics took 0,002s
+[22:01:18] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppingEvent to mod IC2
+[22:01:18] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppingEvent to mod IC2
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - IndustrialCraft 2 took 0,000s
+[22:01:18] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0,013s
+[22:01:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:01:19] [Server thread/INFO] [FML/]: Unloading dimension 0
+[22:01:19] [Server thread/INFO] [FML/]: Unloading dimension -1
+[22:01:19] [Server thread/INFO] [FML/]: Unloading dimension 1
+[22:01:19] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[22:01:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[22:01:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[22:01:19] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[22:01:19] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[22:01:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[22:01:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,001s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLModIdMappingEvent to mod BuildCraft|Core
+[22:01:19] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLModIdMappingEvent to mod BuildCraft|Core
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BuildCraft took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLModIdMappingEvent to mod BuildCraft|Transport
+[22:01:19] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLModIdMappingEvent to mod BuildCraft|Transport
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Transport took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[22:01:19] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Silicon took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLModIdMappingEvent to mod BuildCraft|Energy
+[22:01:19] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLModIdMappingEvent to mod BuildCraft|Energy
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Energy took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLModIdMappingEvent to mod BuildCraft|Factory
+[22:01:19] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLModIdMappingEvent to mod BuildCraft|Factory
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Factory took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLModIdMappingEvent to mod BuildCraft|Builders
+[22:01:19] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLModIdMappingEvent to mod BuildCraft|Builders
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Builders took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[22:01:19] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Robotics took 0,000s
+[22:01:19] [Server thread/TRACE] [IC2/IC2]: Sending event FMLModIdMappingEvent to mod IC2
+[22:01:19] [Server thread/TRACE] [IC2/IC2]: Sent event FMLModIdMappingEvent to mod IC2
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - IndustrialCraft 2 took 0,000s
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,004s
+[22:01:19] [Server thread/INFO] [FML/]: Applying holder lookups
+[22:01:19] [Server thread/INFO] [FML/]: Holder lookups applied
+[22:01:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[22:01:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,000s
+[22:01:19] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[22:01:19] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[22:01:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[22:01:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerStoppedEvent to mod BuildCraft|Core
+[22:01:19] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerStoppedEvent to mod BuildCraft|Core
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BuildCraft took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerStoppedEvent to mod BuildCraft|Transport
+[22:01:19] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerStoppedEvent to mod BuildCraft|Transport
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Transport took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerStoppedEvent to mod BuildCraft|Silicon
+[22:01:19] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerStoppedEvent to mod BuildCraft|Silicon
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Silicon took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerStoppedEvent to mod BuildCraft|Energy
+[22:01:19] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerStoppedEvent to mod BuildCraft|Energy
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Energy took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerStoppedEvent to mod BuildCraft|Factory
+[22:01:19] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerStoppedEvent to mod BuildCraft|Factory
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Factory took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerStoppedEvent to mod BuildCraft|Builders
+[22:01:19] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerStoppedEvent to mod BuildCraft|Builders
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Builders took 0,000s
+[22:01:19] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerStoppedEvent to mod BuildCraft|Robotics
+[22:01:19] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerStoppedEvent to mod BuildCraft|Robotics
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Robotics took 0,000s
+[22:01:19] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
+[22:01:19] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppedEvent to mod IC2
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IndustrialCraft 2 took 0,000s
+[22:01:19] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,004s
